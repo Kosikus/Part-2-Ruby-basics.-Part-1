@@ -2,7 +2,7 @@ print "Как вас зовут: "
 name = gets.chomp
 
 print "Ваш рост(см): "
-height = gets.to_i
+height = gets.to_f
 
 perfect_weight = (height - 110) * 1.15
 
